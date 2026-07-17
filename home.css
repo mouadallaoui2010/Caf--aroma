@@ -1,0 +1,67 @@
+body{
+    background-color: #5c2a0dce;
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    background-color: #4D230B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0px 0px 20px 20px;
+}
+.name-of-coffe{
+    position: absolute;
+    left: 85px;
+    color: rgb(0, 0, 0);
+
+}
+.header img{
+    width: 80px ;
+    border-radius: 0px 0px 0px 20px;
+    margin: 0px;
+    padding: 0px;
+}
+.header a {
+        text-decoration: none;
+        color: azure;
+        padding: 5px 4px;
+        margin: 4px;
+        border-radius: 50px
+}
+.header a:hover{
+    background-color: #854624
+}
+/*hero page*/
+.hero-page{
+    display: flex;
+    justify-content: space-between;
+}
+/*R,hero section*/
+.R-hero-section{
+    padding: 4px;
+    margin: 15px;
+    background-color: #5a240577;
+    border-radius: 20px;
+    width: 600px;
+    height: 150px;
+    margin-left: 52px;
+    margin-top: 68px;
+    font-size: 23px;
+    font-style: italic;
+}
+.R-hero-section button{
+    background-color: #461d05b6;
+    color: azure;
+    border-radius :20px; ;
+    position:absolute;
+    left: 326px;
+    top: 255px;
+    width: 90px;
+    height: 27px;
+}
+.L-hero-section img{
+    width: 603px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
